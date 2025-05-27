@@ -300,7 +300,7 @@
     width:100%;
     display:block;
     background: linear-gradient(#ffc845, #fe3859);
-    -webkit-background-size: cover;
+    /*-webkit-background-size: cover;*/
     }
     .content table{
     width:85%;
