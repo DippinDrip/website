@@ -486,6 +486,7 @@
   /*/////////////////////////////////////////////////////////////////*/
   /*FOOTER*/
   .footer{
+  display: inline-block;
   width:100%;
   padding:50px 0px;
   background-image:url(https://i.ibb.co/7N4wH4y/footer.jpg);
