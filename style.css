@@ -418,9 +418,11 @@
     text-align:right;
     }
     .section5 ul li img {
+      width: 80px;
+      height: 80px;
       padding-right: 20px;
       object-fit: cover;
-      border-radius: 8px; 
+      border-radius: 8px;
     }
     .section5 ul li b{
     text-align:right;
