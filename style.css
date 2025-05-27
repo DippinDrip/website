@@ -8,8 +8,9 @@
   overflow-x:hidden;
   font-family: 'Exo 2', sans-serif;
   }
-
   
+
+  /*/////////////////////////////////////////////////////////////////*/
   /* Thin Scrollbar */
   :root{
     scrollbar-color: rgb(210,210,210) rgb(46,54,69) !important;
@@ -66,9 +67,6 @@
   width:30px;
   height:40px;
   }
-
-
-
 
   .wrapper {
     display: flex;
@@ -151,6 +149,8 @@
     .sidenav a {font-size: 18px;}
   }
   
+
+  /*/////////////////////////////////////////////////////////////////*/
   /*CAROUSEL*/
   #myCarousel h1{
   position:absolute;
@@ -228,6 +228,8 @@
     animation: zoom 10s;
   }
   
+
+  /*/////////////////////////////////////////////////////////////////*/
   /*SECTION1*/
   .container{
   width:95%;
@@ -501,7 +503,7 @@
   
   
   
-  
+  /*/////////////////////////////////////////////////////////////////*/
   /*FOOTER*/
   .footer{
   width:100%;
@@ -545,8 +547,8 @@
   background:none;
   }
   
-  
-  
+  /*/////////////////////////////////////////////////////////////////*/
+  /* for credits in .html
   .credits{
     background:#1e1e1e;
     padding:10px;
@@ -557,7 +559,7 @@
     font-size:13px;
     width:200px;
   }
-
+*/
 
   .logo-white {
     color: #fff;
@@ -565,11 +567,8 @@
 
 
 
-/**/
-
-/* === CUTE & CUSTOM NAVIGATION CSS === */
-
-/* Rename and isolate new nav class selectors */
+/*/////////////////////////////////////////////////////////////////*/
+/* New nav class selectors */
 .navWrapper {
   width: 100%;
   position: fixed;
