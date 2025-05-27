@@ -704,6 +704,28 @@
 
 */
 
+/* Limit width and make sure it wraps */
+.textBox {
+  max-width: 100%;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+/* Adjust title size for long text */
+.textBox .title {
+  font-size: 40px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+/* Optional: adjust em styling */
+.textBox em {
+  font-style: normal;
+  font-family: 'Pirata One', cursive;
+  color: #ffdb9d;
+}
+
+
 .contentText {
   max-width: 500px;
   word-wrap: break-word;
@@ -719,4 +741,15 @@
   font-style: normal;
   color: #70412e;
   font-family: 'Pirata One', cursive;
+}
+
+.content table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.content table td {
+  width: 50%;
+  vertical-align: middle;
+  overflow: hidden;
 }
