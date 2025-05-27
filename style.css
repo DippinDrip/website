@@ -224,8 +224,8 @@
     }
   }
   .carousel-inner .item > img {
-    -webkit-animation: zoom 10s;
-    animation: zoom 10s;
+    -webkit-animation: zoom 3s;
+    animation: zoom 3s;
   }
   
   /*SECTION1*/
