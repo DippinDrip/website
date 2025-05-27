@@ -233,7 +233,7 @@
   scroll-behavior: smooth;
   }
   .section1 .card{
-  width:200px;
+  width:900px;
   height:150px;
   padding:30px;
   border-radius:5px;
@@ -257,7 +257,9 @@
   position:relative;
   top:0px;
   }
-
+  .section1 .card{
+  min-width:300px;
+  }
   }
   
   
