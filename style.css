@@ -551,7 +551,6 @@ transition: all 0.3s ease;
 }
 }
 
-/* Smooth transition for color change */
 .navScrollDark .brandBox,
 .navScrollDark .toggleTrigger div,
 .navScrollDark .menuShell ul li a {
@@ -560,8 +559,7 @@ background-color: transparent;
 }
 
 .navScrollDark .menuShell ul li a::after {
-background-color: #000;
-}
+  background-color: blue !important;}
 /*
 
 
