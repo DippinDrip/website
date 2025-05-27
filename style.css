@@ -349,6 +349,13 @@
   
   
   
+
+
+
+
+
+
+
   
   /*SECTION4*/
   .section4{
@@ -682,4 +689,34 @@
 
 .navScrollDark .menuShell ul li a::after {
   background-color: #000;
+}
+/*
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+.contentText {
+  max-width: 500px;
+  word-wrap: break-word;
+}
+
+.content .title {
+  font-size: 36px;
+  line-height: 1.2;
+  white-space: normal;
+}
+
+.content em {
+  font-style: normal;
+  color: #70412e;
+  font-family: 'Pirata One', cursive;
 }
