@@ -556,7 +556,7 @@ transition: all 0.3s ease;
 .navScrollDark .toggleTrigger div,
 .navScrollDark .menuShell ul li a {
 color: #000 !important;
-background-color: blue !important;
+background-color: blue;
 }
 
 .navScrollDark .menuShell ul li a::after {
