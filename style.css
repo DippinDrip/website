@@ -530,9 +530,10 @@
   }
 
   .footer span {
-    color: #8c00ff; /* replace with any color you want */
+    color: #fdd835; /* replace with any color you want */
     font-weight: bold; /* optional */
   }
+
   
   /*/////////////////////////////////////////////////////////////////*/
   /* for credits in .html
