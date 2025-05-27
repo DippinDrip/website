@@ -385,48 +385,45 @@
   
   
   /*SECTION5*/
+  
+  /*SECTION5*/
   .section5{
-  width:100%;
-  margin-top:5%;
-  }
-  .section5 table{
-  width:90%;
-  }
-  .section5 table td{
-  width:50%;
-  }
-  .section5 h3{
-  text-align:center;
-  }
-  .section5 ul li {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 20px 10px;
-    border-top: 1px solid #b22222;
-    border-bottom: 1px solid #b22222;
-    list-style: none;
-    font-size: 18px;
-    font-family: 'Exo 2', sans-serif;
-    color: #333;
-  }
-  
-  .section5 ul li img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  
-  .section5 table td:nth-child(1) p{
-  text-align:right;
-  }
- 
-  .section5 ul li b{
-  text-align:right;
-  }
-  
-
+    width:100%;
+    margin-top:5%;
+    }
+    .section5 table{
+    width:90%;
+    }
+    .section5 table td{
+    width:50%;
+    }
+    .section5 h3{
+    text-align:center;
+    }
+    .section5 ul li{
+    padding-top:10px;
+    padding-bottom:10px;
+    border-top:1px solid rgb(112, 22, 22);
+    border-bottom:1px solid rgb(142, 18, 18);
+    list-style:none;
+    height:100px;
+    font-size: larger;
+    }
+    
+    .section5 table td:nth-child(1) p{
+    text-align:right;
+    }
+    .section5 ul li img{
+    padding-right:20px;
+    }
+    .section5 ul li b{
+    text-align:right;
+    }
+    .section5 ul li img{
+    width:20%;
+    height:70px;
+    float:left;
+    }
   
   .accordation {
     background: #fff;
