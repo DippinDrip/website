@@ -551,15 +551,17 @@ transition: all 0.3s ease;
 }
 }
 
+/* Smooth transition for color change */
 .navScrollDark .brandBox,
 .navScrollDark .toggleTrigger div,
 .navScrollDark .menuShell ul li a {
 color: #000 !important;
-background-color: transparent;
+background-color: blue !important;
 }
 
 .navScrollDark .menuShell ul li a::after {
-  background-color: blue !important;}
+background-color: #000;
+}
 /*
 
 
