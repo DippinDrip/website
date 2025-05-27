@@ -401,6 +401,8 @@
     text-align:center;
     }
     .section5 ul li{
+    padding-top:80px;
+    padding-bottom:80px;
     border-top:1px solid rgb(255, 114, 215);
     border-bottom:1px solid rgb(165, 149, 255);
     list-style:none;
