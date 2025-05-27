@@ -415,8 +415,10 @@
     }
     .section5 ul li img {
       padding-right: 20px;
-      width: 120px;
-      height: 120px;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px; /* optional: for rounded corners */
     }
     .section5 ul li b{
     text-align:right;
