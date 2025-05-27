@@ -401,12 +401,9 @@
     text-align:center;
     }
     .section5 ul li{
-    padding-top:10px;
-    padding-bottom:10px;
     border-top:1px solid rgb(255, 114, 215);
     border-bottom:1px solid rgb(165, 149, 255);
     list-style:none;
-    height:100px;
     font-size: larger;
     }
     
