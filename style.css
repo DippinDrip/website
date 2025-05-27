@@ -416,9 +416,9 @@
     .section5 ul li img {
       padding-right: 20px;
       width: 100px;
-      height: 100px;
+      height: 400px;
       object-fit: cover;
-      border-radius: 8px; /* optional: for rounded corners */
+      border-radius: 8px; 
     }
     .section5 ul li b{
     text-align:right;
