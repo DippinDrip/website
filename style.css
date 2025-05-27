@@ -725,38 +725,3 @@
   color: #ffdb9d;
 }
 
-
-.contentText {
-  max-width: 500px;
-  word-wrap: break-word;
-}
-
-.content .title {
-  font-size: 36px;
-  line-height: 1.2;
-  white-space: normal;
-}
-
-.content em {
-  font-style: normal;
-  color: #70412e;
-  font-family: 'Pirata One', cursive;
-}
-
-.content table {
-  table-layout: fixed;
-  width: 100%;
-}
-
-.content table td {
-  width: 50%;
-  vertical-align: middle;
-  overflow: hidden;
-}
-
-.content table td:first-child img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
-}
