@@ -403,8 +403,8 @@
     .section5 ul li{
     padding-top:10px;
     padding-bottom:10px;
-    border-top:1px solid rgb(112, 22, 22);
-    border-bottom:1px solid rgb(142, 18, 18);
+    border-top:1px solid rgb(255, 114, 215);
+    border-bottom:1px solid rgb(165, 149, 255);
     list-style:none;
     height:100px;
     font-size: larger;
@@ -415,6 +415,8 @@
     }
     .section5 ul li img{
     padding-right:20px;
+    width: 80px;
+    height: 80px;
     }
     .section5 ul li b{
     text-align:right;
