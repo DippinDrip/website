@@ -528,6 +528,11 @@
   color:#fd375a;
   background:none;
   }
+
+  .footer span {
+    color: #8c00ff; /* replace with any color you want */
+    font-weight: bold; /* optional */
+  }
   
   /*/////////////////////////////////////////////////////////////////*/
   /* for credits in .html
