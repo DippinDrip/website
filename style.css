@@ -551,16 +551,16 @@ transition: all 0.3s ease;
 }
 }
 
-/* Smooth transition for color change */
-.navScrollDark .brandBox,
-.navScrollDark .toggleTrigger div,
+.navScrollDark .toggleTrigger div {
+  background-color: blue !important;
+}
+
 .navScrollDark .menuShell ul li a {
-color: #000 !important;
-background-color: blue;
+  color: #70412e !important;
 }
 
 .navScrollDark .menuShell ul li a::after {
-background-color: #000;
+  background-color: #fe3859;
 }
 /*
 
