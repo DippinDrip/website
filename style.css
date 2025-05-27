@@ -753,3 +753,10 @@
   vertical-align: middle;
   overflow: hidden;
 }
+
+.content table td:first-child img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
