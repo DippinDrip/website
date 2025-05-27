@@ -74,10 +74,7 @@
   height:40px;
   }
 
-  .wrapper {
-    display: flex;
-    align-items: flex-start;
-  }
+
 
   .logo:hover img {
     transform: scale(0.9, 1) rotatey(-10deg) translatey(0px);
