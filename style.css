@@ -401,10 +401,11 @@
   .section5 ul li{
   padding-top:10px;
   padding-bottom:10px;
-  border-top:1px solid gray;
-  border-bottom:1px solid gray;
+  border-top:1px solid rgb(255, 255, 255);
+  border-bottom:1px solid rgb(255, 255, 255);
   list-style:none;
   height:100px;
+  font-size: larger;
   }
   .section5 table td:nth-child(1) p{
   text-align:right;
@@ -486,7 +487,6 @@
   /*/////////////////////////////////////////////////////////////////*/
   /*FOOTER*/
   .footer{
-  display: inline-block;
   width:100%;
   padding:50px 0px;
   background-image:url(https://i.ibb.co/7N4wH4y/footer.jpg);
