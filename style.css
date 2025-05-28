@@ -173,7 +173,7 @@ align-items: stretch;
 justify-content: space-between;
 width: 100%;
 height: auto;
-min-height: 100vh; /* Ensures image can fill vertical space */
+min-height: 50vh; /* Ensures image can fill vertical space */
 }
 
 .image-box {
