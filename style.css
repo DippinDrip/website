@@ -464,7 +464,6 @@ body::-webkit-scrollbar {
   height: auto;
   object-fit: cover;
   z-index: -1;
-  filter: brightness(1) saturate(0.6) hue-rotate(-20deg) blur(3px);
 }
 
 
