@@ -292,6 +292,7 @@ line-height: 1.5;
 .accordation {
   width: 500px;         /* Set your preferred width */
   height: 320px;        /* Set your preferred height */
+  overflow-y: hidden;     /* Enables scroll if content overflows */
   overflow-x: hidden;   /* Prevents horizontal scrolling */
   background: #fff;
   border-radius: 3px;
