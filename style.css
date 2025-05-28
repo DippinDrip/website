@@ -272,9 +272,8 @@ body::-webkit-scrollbar {
   /*SECTION5*/
   .section5 {
     width: 100%;
-    margin-top: -5%;
+    margin-top: 5%;
     padding: 0 20px;
-    
   }
   
   .section5 h3 {
