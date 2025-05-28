@@ -464,6 +464,7 @@ body::-webkit-scrollbar {
   height: auto;
   object-fit: cover;
   z-index: -1;
+  filter: brightness(1) saturate(0.6) hue-rotate(-20deg) blur(3px);
 }
 
 
@@ -753,21 +754,7 @@ body::-webkit-scrollbar {
       filter: brightness(0.2) contrast(0.9) saturate(0.5) blur(2px);
       opacity: 0.4;
     }
-
-    
   }
-
-  @media (max-width: 768px) {
-  .menu-bg-video video {
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    height: 100%;
-    filter: none;        /* 🔥 Remove filters on iOS */
-    opacity: 1;
-  }
-}
-
   
   
 
