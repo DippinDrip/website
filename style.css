@@ -253,8 +253,10 @@ line-height: 1.5;
 
 /*SECTION5*/
 .section5{
-  width:100%;
+ 
   margin-top:5%;
+  width: 500px;         /* Set your preferred width */
+  height: 320px;    
   }
   .section5 table{
   width:90%;
