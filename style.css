@@ -673,18 +673,6 @@ body::-webkit-scrollbar {
   }
   
   /* Mobile nav */
-  @media (max-width: 768px) {
-  .menuShell ul {
-    display: none;
-    flex-direction: column;
-    background: #fff;
-    position: absolute;
-    top: 60px;
-    right: 30px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    padding: 20px;
-    border-radius: 8px;
-  }
   
   .navLinks {
     display: flex;
