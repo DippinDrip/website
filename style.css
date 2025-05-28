@@ -450,10 +450,7 @@ body::-webkit-scrollbar {
   left: 0;
   min-width: 100%;
   min-height: 100%;
-  width: auto;
-  height: auto;
   object-fit: cover;
-  overflow-y: hidden;
   z-index: -1;
   filter: brightness(1) saturate(0.6) hue-rotate(-20deg) blur(3px);
 }
