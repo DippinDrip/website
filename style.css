@@ -254,7 +254,6 @@ line-height: 1.5;
 /*SECTION5*/
 .section5{
   width:100%;
-  height:100%;
   margin-top:5%;  
   }
   .section5 table{
@@ -279,8 +278,8 @@ line-height: 1.5;
   text-align:right;
   }
   .section5 ul li img {
-    width: 80px;
-    height: 80px;
+      width: 500px;         /* Set your preferred width */
+  height: 320px;     
     padding-right: 20px;
     object-fit: cover;
     border-radius: 8px;
