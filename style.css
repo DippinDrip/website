@@ -440,7 +440,7 @@ z-index: 9999;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 15px 80px;
+padding: 80px 80px;
 transition: all 0.3s ease-in-out;
 }
 
