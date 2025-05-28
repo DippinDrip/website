@@ -141,7 +141,7 @@ body::-webkit-scrollbar {
       font-family: 'Yeon Sung', cursive;
       background: #fff;
       border-radius: 5px;
-      box-shadow: 0 6px 16px -6px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 6px 16px -6px rgba(255, 0, 0, 0.4);
     }
     
     .section1 .card img {
