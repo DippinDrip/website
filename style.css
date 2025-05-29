@@ -502,7 +502,8 @@ body::-webkit-scrollbar {
   .footer {
       text-align: center;
       padding: 50px 0;
-      background-color: gradient( white, rgb(0, 16, 51));
+      background: linear-gradient(#ffffff, rgb(0, 16, 51));
+    
     }
 
     .footer h3 {
