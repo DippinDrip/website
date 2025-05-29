@@ -710,30 +710,30 @@ body::-webkit-scrollbar {
   
   
   */
-
-  @media (max-width: 768px) {
-    .Menu {
-      padding: 20px 10px;
-      min-height: auto;
-      max-height: none;
-    }
-  
-    .Menu h3 {
-      font-size: 2.5rem;
-    }
-  
-    .Menu img {
-      width: 100%;
-      height: auto;
-      max-width: 90%;
-    }
-  
-    .menu-bg-video video {
-      object-position: center;
-      filter: brightness(0.2) contrast(0.9) saturate(0.5) blur(2px);
-      opacity: 0.4;
-    }
+@media (max-width: 768px) {
+  .Menu {
+    min-height: auto;
+    max-height: none;
+    padding: 20px 10px;
   }
+
+  .menu-bg-video video {
+    object-position: center;
+    filter: none; /* ✅ Remove filters on iOS to fix grey screen */
+    opacity: 1;
+  }
+
+  .Menu h3 {
+    font-size: 2.5rem;
+  }
+
+  .Menu img {
+    width: 100%;
+    height: auto;
+    max-width: 90%;
+  }
+}
+
   
   
   
