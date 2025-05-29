@@ -470,7 +470,7 @@ body::-webkit-scrollbar {
   font-size: 70px;
   padding-top: 5rem;
   color: #ffffff;
-  text-shadow: 2px 2px 0 #ffc7c7, 4px 4px 0 #70412e;
+  text-shadow: 2px 2px 0 #ffc7c7, 4px 4px 0 rgb(0, 16, 51),;
   letter-spacing: 3px;
   text-transform: uppercase;
   }
