@@ -51,7 +51,19 @@ body::-webkit-scrollbar {
   
   /*/////////////////////////////////////////////////////////////////*/
   /*CAROUSEL*/
-
+  #myCarousel h1{
+  position:absolute;
+  z-index:1;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  top:30%;
+  font-family: 'Pirata One';
+  color:#fff;
+  font-size: 100px;
+  
+  }
+  
   #myCarousel .sub-title,#myCarousel .btn1{
   color:#fff;
   position:absolute;
