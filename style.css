@@ -13,7 +13,7 @@ body::-webkit-scrollbar {
   /*/////////////////////////////////////////////////////////////////*/
   /* Thin Scrollbar */
   :root{
-    scrollbar-color: #FFBBE5 rgb(97, 0, 79) !important;
+    scrollbar-color: #FFBBE5 rgb(0, 16, 51), !important;
     scrollbar-width: thin !important;
   }
   
