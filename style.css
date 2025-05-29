@@ -719,7 +719,7 @@ body::-webkit-scrollbar {
 
   .menu-bg-video video {
     object-position: center;
-    filter: none; /* ✅ Remove filters on iOS to fix grey screen */
+    filter: none; 
     opacity: 1;
   }
 
