@@ -502,7 +502,7 @@ body::-webkit-scrollbar {
   .footer {
       text-align: center;
       padding: 50px 0;
-      background: linear-gradient(#ffffff, rgb(0, 16, 51));
+      background: linear-gradient(#ffffff,  rgb(0, 16, 51), rgb(0, 16, 51));
     
     }
 
