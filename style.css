@@ -732,12 +732,15 @@ body::-webkit-scrollbar {
   /* Shrinks the overall height of the carousel */
 
 
+  .carousel-inner {
+    max-height: 100%;
+    width: 100%;
+  }
 
   /* Scales the image properly */
   #myCarousel img,
   .carousel-inner .item img {
-    width: 100%;
-    height: 100%;
+   
     object-fit: cover;   
     object-position: center;
   }
