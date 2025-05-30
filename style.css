@@ -461,7 +461,7 @@ body::-webkit-scrollbar {
   height: 100%;
   object-fit: cover;
   /*filter: brightness(1) saturate(0.6) hue-rotate(-20deg) blur(3px);  darkens video to make text/images pop */
-  opacity: 1;
+
 }
 
 
