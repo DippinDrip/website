@@ -732,7 +732,7 @@ body::-webkit-scrollbar {
   /* Shrinks the overall height of the carousel */
   .carousel-inner {
     height: 70vh !important;
-    width: 100vh !important;
+    width: 50vh !important;
   }
 
   /* Scales the image properly */
