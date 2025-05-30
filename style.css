@@ -746,8 +746,9 @@ body::-webkit-scrollbar {
 
   .Menu img {
     width: 90%;
-    height: 70vh;
+    height: 60vh;
     margin-top: 20px;
+    padding-bottom: 20px;
     border-radius: 20px;
     z-index: 2;
     position: relative;
