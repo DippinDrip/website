@@ -728,42 +728,68 @@ body::-webkit-scrollbar {
   
   */
  
-
-  @media (max-width: 768px) {
-    .Menu {
-      padding: 20px 10px;
-      min-height: auto;
-      max-height: none;
-    }
-  
-    .Menu h3 {
-      font-size: 2.5rem;
-    }
-  
-    .Menu img {
-      width: 100%;
-      height: auto;
-      max-width: 90%;
-    }
-  
-    .menu-bg-video video {
-      object-position: center;
-     /* filter: brightness(0.2) contrast(0.9) saturate(0.5) blur(2px); */
-     /*   opacity: 0.4; */
-    }
+@media (max-width: 768px) {
+  .Menu {
+    position: relative;
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
   }
-  
-  
-  @media (max-width: 768px) {
+
+  .Menu h3 {
+    font-size: 2rem;
+    z-index: 2;
+    position: relative;
+  }
+
+  .Menu img {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    z-index: 2;
+    position: relative;
+  }
+
+  .menu-bg-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .menu-bg-video::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.3); /* Optional dark overlay */
+    z-index: 1;
+  }
+
   .menuShell {
     position: relative; /* Needed for positioning dropdown correctly */
   }
 
   .menuShell ul {
-    right: 0; /* Snap it to the right */
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 60px;
+    right: 0;
     width: 200px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  .menuShell.showNav ul {
+    display: flex;
   }
 }
+
 #section1,
 #section2,
 #section3 {
