@@ -740,7 +740,7 @@ body::-webkit-scrollbar {
   /* Scales the image properly */
   #myCarousel img,
   .carousel-inner .item img {
-   
+    width: 100%;
     object-fit: cover;   
     object-position: center;
   }
