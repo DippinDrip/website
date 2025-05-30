@@ -749,7 +749,7 @@ body::-webkit-scrollbar {
     #myCarousel img,
    .item img {
     
-   border-top: 3rem;
+ padding-top: 100px;
   }
 
 
