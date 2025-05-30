@@ -734,7 +734,7 @@ body::-webkit-scrollbar {
     padding-top: 60px;
     text-align: center;
     color: white;
-    height: 100vh;
+    height: 50vh;
     overflow: hidden;
   }
 
