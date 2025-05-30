@@ -773,15 +773,7 @@ body::-webkit-scrollbar {
   .carousel-control.left,
   .carousel-control.right {
     font-size: 24px;
-  }
-    #myCarousel {
-    margin-top: 100px; /* Match your navbar height */
-  }
 
-  .navWrapper {
-    height: 100px; /* Ensure this matches your actual nav height */
-  }
-  
 }
 
 
