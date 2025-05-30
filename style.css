@@ -740,10 +740,18 @@ body::-webkit-scrollbar {
   /* Scales the image properly */
   #myCarousel img,
   .carousel-inner .item img {
+    
     height: 100%;
     object-fit: cover;   
     object-position: center;
   }
+
+    #myCarousel img,
+   .item img {
+    
+   border-top: 3rem;
+  }
+
 
   /* Optional: reduce arrow size */
   .carousel-control.left,
