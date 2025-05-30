@@ -756,10 +756,6 @@ body::-webkit-scrollbar {
   .carousel-control.left,
   .carousel-control.right {
     font-size: 24px;
-    top: 50%;
-    transform: translateY(-50%);
-    height: auto;
-     object-position: center;
   }
 
   /* Optional: tweak indicators for spacing */
