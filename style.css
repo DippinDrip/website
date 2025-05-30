@@ -755,10 +755,10 @@ body::-webkit-scrollbar {
   /* Optional: reduce arrow size */
   .carousel-control.left,
   .carousel-control.right {
- font-size: 24px;
-  top: 50%;
-  transform: translateY(-50%);
-  height: auto;
+    font-size: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: auto;
   }
 
   /* Optional: tweak indicators for spacing */
