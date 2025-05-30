@@ -762,7 +762,7 @@ body::-webkit-scrollbar {
   .carousel-indicators li {
     width: 10px;
     height: 10px;
-    justify-items: center;
+    align-items: center;
   }
 }
  
