@@ -750,7 +750,6 @@ body::-webkit-scrollbar {
     .menu-bg-video video {
       object-position: center;
      /* filter: brightness(0.2) contrast(0.9) saturate(0.5) blur(2px); */
-      opacity: 0.4;
     }
   }
   
