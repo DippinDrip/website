@@ -728,6 +728,7 @@ body::-webkit-scrollbar {
   
   
   */
+ 
 
   @media (max-width: 768px) {
     .Menu {
@@ -754,7 +755,16 @@ body::-webkit-scrollbar {
   }
   
   
+@media (max-width: 768px) {
+  .menuShell {
+    position: relative; /* Needed for positioning dropdown correctly */
+  }
 
+  .menuShell ul {
+    right: 0; /* Snap it to the right */
+    width: 200px;
+  }
+}
 #section1,
 #section2,
 #section3 {
