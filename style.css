@@ -438,7 +438,6 @@ body::-webkit-scrollbar {
   padding-top: 20px;
   text-align: center;
   color: white;
-  min-height: 60vh;
   height: 100vh;
   margin-bottom: -20px;
 }
