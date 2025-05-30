@@ -734,6 +734,7 @@ body::-webkit-scrollbar {
     max-height: 100%;
     width: 100%;
     padding-top: 10rem;
+     overflow: hidden;
   }
 
   /* Scales the image properly */
