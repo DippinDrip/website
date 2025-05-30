@@ -730,6 +730,10 @@ body::-webkit-scrollbar {
 
   @media (max-width: 768px) {
   /* Shrinks the overall height of the carousel */
+
+    #myCarousel {
+    margin-top: 100px;
+  }
   .carousel-inner {
     max-height: 100%;
     width: 100%;
@@ -744,6 +748,7 @@ body::-webkit-scrollbar {
     height: 100%;
     object-fit: cover;   
     object-position: center;
+     overflow: hidden;
   }
 
   /* Optional: reduce arrow size */
