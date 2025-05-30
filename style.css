@@ -757,6 +757,7 @@ body::-webkit-scrollbar {
   .carousel-control.right {
     font-size: 24px;
     top: 50%;
+    transform: translateY(-100%);
     height: auto;
   }
 
