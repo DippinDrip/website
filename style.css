@@ -781,8 +781,14 @@ body::-webkit-scrollbar {
   .navWrapper {
     height: 100px; /* Ensure this matches your actual nav height */
   }
+  
+}
 
- .Menu {
+
+
+ 
+@media (max-width: 768px) {
+  .Menu {
     position: relative;
     padding-top: 30px;
     text-align: center;
@@ -841,21 +847,6 @@ body::-webkit-scrollbar {
   .menuShell.showNav ul {
     display: flex;
   }
-
-
-
-
-
-
-
-
-}
-
-
-
- 
-@media (max-width: 768px) {
- 
 }
 
 #section1,
