@@ -733,7 +733,8 @@ body::-webkit-scrollbar {
   .carousel-inner {
     max-height: 100%;
     width: 100%;
-    padding-top: 20rem;
+    padding-top: 10rem;
+    border-top: 10rem;
   }
 
   /* Scales the image properly */
