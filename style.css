@@ -740,6 +740,7 @@ body::-webkit-scrollbar {
   .carousel-inner .item img {
     width: 100%;
     height: 100%;
+    psdding-top: 5rem;
     object-fit: cover;   
     object-position: center;
     object-view-box: cover;
