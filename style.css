@@ -738,9 +738,9 @@ body::-webkit-scrollbar {
   /* Scales the image properly */
   #myCarousel img,
   .carousel-inner .item img {
-    width: 100%;
+    width: 100vh;
     height: 70vh;
-    object-fit: cover;   /* Ensures no stretching */
+    object-fit: cover;   
     object-position: center;
   }
 
