@@ -755,10 +755,10 @@ body::-webkit-scrollbar {
   }
   
   
-@media (max-width: 768px) {
-  .menuShell {
-    position: relative; /* Needed for positioning dropdown correctly */
-  }
+    @media (max-width: 768px) {
+      .menuShell {
+      position: relative; /* Needed for positioning dropdown correctly */
+    }
 
   .menuShell ul {
     right: 0; /* Snap it to the right */
