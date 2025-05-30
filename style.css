@@ -755,7 +755,7 @@ body::-webkit-scrollbar {
   .carousel-control.left,
   .carousel-control.right {
     font-size: 24px;
-      top: calc(50% + 20px);
+      top: calc(50% + 50px);
   }
 
   /* Optional: tweak indicators for spacing */
