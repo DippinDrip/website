@@ -728,35 +728,56 @@ body::-webkit-scrollbar {
   
   */
 
+
+
+
+
+
+
+
+
   @media (max-width: 768px) {
-  /* Shrinks the overall height of the carousel */
-  .carousel-inner {
-    max-height: 100%;
-    width: 100%;
-    padding-top: 10rem;
+  #myCarousel {
+    height: 100vh;
+    overflow: hidden;
   }
 
-  /* Scales the image properly */
+  .carousel-inner {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .carousel-inner .item,
+  .carousel-inner .item.active {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   #myCarousel img,
   .carousel-inner .item img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;   
+    height: 100vh;
+    object-fit: cover;
     object-position: center;
   }
 
-  /* Optional: reduce arrow size */
-  .carousel-control.left,
-  .carousel-control.right {
-    font-size: 24px;
-  }
-
-  /* Optional: tweak indicators for spacing */
+  /* Optional: control indicator dots size */
   .carousel-indicators li {
     width: 10px;
     height: 10px;
   }
+
+  /* Optional: adjust arrow size */
+  .carousel-control.left,
+  .carousel-control.right {
+    font-size: 24px;
+  }
 }
+
+
+
  
 @media (max-width: 768px) {
   .Menu {
