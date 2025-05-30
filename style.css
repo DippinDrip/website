@@ -755,7 +755,6 @@ body::-webkit-scrollbar {
   /* Optional: reduce arrow size */
   .carousel-control.left,
   .carousel-control.right {
-    border-top: 10rem;
     font-size: 24px;
   }
 
@@ -763,6 +762,7 @@ body::-webkit-scrollbar {
   .carousel-indicators li {
     width: 10px;
     height: 10px;
+    border-top: 10rem;
   }
 }
  
