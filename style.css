@@ -729,10 +729,6 @@ body::-webkit-scrollbar {
   */
 
   @media (max-width: 768px) {
-  /* Shrinks the overall height of the carousel */
-  #myCarousel {
-    margin-top: 100px; /* adjust to your navbar height */
-  }
 
 
   .carousel-inner {
@@ -759,6 +755,8 @@ body::-webkit-scrollbar {
   .carousel-control.left,
   .carousel-control.right {
     font-size: 24px;
+      top: calc(50% + 20px);
+    transform: translateY(-50%);
   }
 
   /* Optional: tweak indicators for spacing */
