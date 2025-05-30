@@ -435,12 +435,16 @@ body::-webkit-scrollbar {
 
 .Menu {
   position: relative;
-  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   color: white;
   height: 100vh;
-  margin-bottom: -20px;
+  overflow: hidden;
 }
+
 
 
 .menu-bg-video {
@@ -733,7 +737,7 @@ body::-webkit-scrollbar {
   .carousel-inner {
     max-height: 100%;
     width: 100%;
-    border-top: 10rem;
+    padding-top: 10rem;
   }
 
   /* Scales the image properly */
