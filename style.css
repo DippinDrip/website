@@ -435,16 +435,12 @@ body::-webkit-scrollbar {
 
 .Menu {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-top: 20px;
   text-align: center;
   color: white;
   height: 100vh;
-  overflow: hidden;
+  margin-bottom: -20px;
 }
-
 
 
 .menu-bg-video {
